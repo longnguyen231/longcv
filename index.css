@@ -29,10 +29,6 @@ img{
 .address-infor{
     margin-left :30px; 
 }
-.address-infor-item{
-    display: flex;
-    justify-content: space-around;
-}  
 .trinh-do{
     margin-left: 30px;
     display: flex;
@@ -43,9 +39,14 @@ img{
 #kinh-nghiem{
     width: 50%;
 }
-
 .ky-nang{
     margin-left: 30px;
+}
+.to-hop{
+    display: flex;
+}
+.to-hop-2{
+    margin-left: 20px;
 }
 .vong-tron-1{
     display: flex;
@@ -53,6 +54,13 @@ img{
 .vong-tron-2{
     margin-top: 10px;
     display: flex;
+}
+.vong-tron-3{
+    display: flex;
+}
+.vong-tron-4{
+    display: flex;
+    margin-top: 10px;
 }
 .circle{
     width: 50px;
@@ -66,8 +74,8 @@ img{
     height: 50px;
     border-radius: 50px;
     position: absolute;
-    clip: rect(25px, 50px, 50px,25px);
-    background-color: blue;
+    clip: rect(40px, 50px, 50px,25px);
+    background-color:#DEB887;
 }
 .left{ 
     width: 50px;
@@ -75,9 +83,11 @@ img{
     border-radius: 50px;
     position: absolute;
     clip: rect(0px, 25px, 50px,0px);
-    background-color: blue;
+    background-color: #DEB887;
 }
 .inside{
+    color: #DEB887;
+    font-size: 13px;
     border: 2px solid black;
     border-radius: 50%;
     height: 40px;
@@ -103,11 +113,83 @@ img{
     height: 50px;
     border-radius: 50px;
     position: absolute;
-    clip: rect(0px, 25px, 50px,0px);
-    background-color: blue;
+    clip: rect(0px, 25px, 45px,0px);
+    background-color: #DEB887;
 }
 
 .inside-1{
+    color: #DEB887;
+    font-size: 13px;
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    position: absolute;
+    margin-top:5px ;
+    margin-left: 5px;
+    text-align: center;
+    z-index: 100;
+    line-height: 40px;
+    box-sizing: border-box;
+}
+.circle-3{
+    width: 50px;
+    height: 50px;
+    background: #fefcff00;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.left-2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    clip: rect(0px, 25px, 25px,0px);
+    background-color: #DEB887;
+}
+.inside-2{
+    color: #DEB887;
+    font-size: 13px;
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    position: absolute;
+    margin-top:5px ;
+    margin-left: 5px;
+    text-align: center;
+    z-index: 100;
+    line-height: 40px;
+    box-sizing: border-box;
+}
+.cricle-4{ 
+    width: 50px;
+    height: 50px;
+    background: #fefcff00;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.left-3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    clip: rect(0px, 25px, 50px,0px);
+    background-color: #DEB887;
+}
+.right-3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    clip: rect(10px, 50px, 50px,25px);
+    background-color:#DEB887;
+}
+.inside-3{
+    color: #DEB887;
+    font-size: 13px;
     border: 2px solid black;
     border-radius: 50%;
     height: 40px;
